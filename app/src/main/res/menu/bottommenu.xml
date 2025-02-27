@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Đồ ăn"
+        android:id="@+id/BottomDoAn"
+        android:icon="@drawable/ic_doan"></item>
+
+    <item
+        android:title="Giỏ Hàng"
+        android:id="@+id/BottomGioHang"
+        android:icon="@drawable/icon_cart"></item>
+
+    <item
+        android:title="Đơn hàng"
+        android:id="@+id/BottomDonHang"
+        android:icon="@drawable/ic_donhang"></item>
+
+    <item
+        android:title="Tài Khoản"
+        android:id="@+id/BottomTaiKhoan"
+        android:icon="@drawable/ic_taikhoan"></item>
+
+</menu>

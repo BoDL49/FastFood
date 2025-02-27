@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật sản phẩm"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@color/blue"/>
+        <EditText
+            android:id="@+id/edtTenUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên sản phẩm"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/edtHinhUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập hình sản phẩm"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/edtMoTaUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mô tả sản phẩm"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/edtGiaUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập đơn giá sản phẩm"
+            android:layout_marginTop="5dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật"
+            android:layout_marginRight="50dp"
+            android:id="@+id/btnUpdate"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:id="@+id/btnHuyUpdate"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Thêm"
+        android:id="@+id/BottomThem"
+        android:icon="@drawable/icon_add"/>
+    <item
+        android:title="Chỉnh sửa"
+        android:id="@+id/BottomSua"
+        android:icon="@drawable/icon_fix"/>
+
+    <item
+        android:title="Tài Khoản"
+        android:id="@+id/BottomTaiKhoanAdmin"
+        android:icon="@drawable/ic_taikhoan"/>
+
+</menu>
